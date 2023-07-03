@@ -1,0 +1,69 @@
+.text-box h3:first-child{
+    color: pink;
+}
+
+#greycol{
+    color: grey;
+}
+
+div > p:nth-child(1){
+    color: red;
+}
+
+.text-box > p:nth-child(7){
+    color: green;
+}
+
+
+.yellow{
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+}
+
+.list{
+    display: flex;
+}
+
+.hover-link:hover{
+    background-color: blue;
+}
+
+.focus-link:focus{
+    background-color: orange;
+}
+
+.visited-link:visited{
+    color: brown;
+}
+
+.link:link{
+    background-color: green;
+}
+
+.active-link:active{
+    color: olivedrab;
+}
+
+.tuesday li:nth-child(4) {
+    color: blueviolet;
+}
+
+.wednesday li:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+.wednesday li:nth-child(even) {
+    color:bisque
+}
+
+.thursday li:nth-child(-n +2) {
+    background-color: firebrick;
+}
+
+.friday li:nth-child(3n + 1) {
+    background-color: lime;
+}
+
